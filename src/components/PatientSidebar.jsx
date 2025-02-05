@@ -4,6 +4,8 @@ import { FaVideo } from "react-icons/fa6";
 import { FaPrescriptionBottleMedical } from "react-icons/fa6";
 import { FaUserDoctor } from "react-icons/fa6";
 import { FaSuitcaseMedical } from "react-icons/fa6";
+import { MdFindInPage } from "react-icons/md";
+import { MdCoffeeMaker } from "react-icons/md";
 
 function PatientSidebar() {
   
@@ -19,14 +21,24 @@ function PatientSidebar() {
       icon: <FaUserDoctor className="h-6 w-6" />
     },
     {
+      path: 'https://healcare-videochat.vercel.app/',
+      name: 'Video',
+      icon: <FaVideo className="h-6 w-6" />
+    },
+    {
+      path: '/disease',
+      name: 'Disease',
+      icon: <MdFindInPage  className="h-6 w-6" />
+    },
+    {
       path: '/prescription',
       name: 'Prescription',
       icon: <FaPrescriptionBottleMedical className="h-6 w-6" />
     },
     {
-      path: 'https://healcare-videochat.vercel.app/',
-      name: 'Video',
-      icon: <FaVideo className="h-6 w-6" />
+      path: '/reciepe',
+      name: 'Recipe Maker',
+      icon: <MdCoffeeMaker className="h-6 w-6" />
     },
     {
       path: '/careers',

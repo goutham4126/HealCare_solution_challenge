@@ -5,7 +5,7 @@ import { Component } from "@/components/chart";
 import Diseases from "@/components/Diseases";
 import { checkUser } from "@/lib/checkUser";
 import AllUsers from '@/app/actions/getAllUsers';
-import NearestHospital from "@/components/Maps/NearestHos";
+import LocationFinder from "@/components/Maps/NearestHos";
 
 export default async function Home() {
   const user = await checkUser();
@@ -64,7 +64,7 @@ export default async function Home() {
       </div>
       {user?.role !== "ADMIN" && (
         <div>
-          <NearestHospital />
+          <LocationFinder />
           <Diseases />
           <Articles />
         </div>

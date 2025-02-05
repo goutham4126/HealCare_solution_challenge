@@ -3,7 +3,6 @@ import "./globals.css";
 import { ClerkProvider, SignedIn, SignedOut } from '@clerk/nextjs';
 import Homepage from "@/components/Homepage";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { checkUser } from "@/lib/checkUser";
 import DoctorSidebar from "@/components/DoctorSidebar";
 import PatientSidebar from "@/components/PatientSidebar";
@@ -51,9 +50,6 @@ export default async function RootLayout({ children }) {
                     <div className={`w-full mt-12 sm:mb-0 p-2 ${userData?.role !== "ADMIN" ? "lg:ml-56" : "ml-10"}`}>
                       {children}
                     </div>
-                  </div>
-                  <div className="w-full">
-                    <Footer />
                   </div>
               </SignedIn>
         </body>

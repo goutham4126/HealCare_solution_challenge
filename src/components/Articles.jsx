@@ -1,4 +1,3 @@
-import { AiOutlineLike } from "react-icons/ai";
 import Image from 'next/image'
 import Link from "next/link"
 
@@ -42,7 +41,6 @@ function Articles() {
                     <div className="m-3">
                         <Link href={item.link} className="mt-2 text-xl font-bold hover:text-gray-600">{item.heading}</Link> 
                         <p className="text-sm text-gray-500">{item.content}</p>
-                        <span className="flex mt-2"><AiOutlineLike className="h-6 w-6 mr-3"/></span>
                     </div>
                 </div>
                 )
