@@ -18,7 +18,9 @@ const nextConfig = {
       "encrypted-tbn0.gstatic.com",
       "cdn-ciobl.nitrocdn.com",
       "img.clerk.com",
-      "files.oaiusercontent.com"
+      "files.oaiusercontent.com",
+      "cdni.iconscout.com",
+      "sjc.microlink.io"
     ],
   },
 };
