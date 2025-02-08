@@ -6,6 +6,7 @@ import { FaUserDoctor } from "react-icons/fa6";
 import { FaSuitcaseMedical } from "react-icons/fa6";
 import { MdFindInPage } from "react-icons/md";
 import { MdCoffeeMaker } from "react-icons/md";
+import { CgGym } from "react-icons/cg";
 
 function PatientSidebar() {
   
@@ -39,6 +40,11 @@ function PatientSidebar() {
       path: '/reciepe',
       name: 'Recipe Maker',
       icon: <MdCoffeeMaker className="h-6 w-6" />
+    },
+    {
+      path: 'https://healcare-workout.vercel.app/',
+      name: 'Workout',
+      icon: <CgGym className="h-6 w-6" />
     },
     {
       path: '/careers',

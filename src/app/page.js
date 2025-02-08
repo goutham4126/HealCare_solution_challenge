@@ -64,8 +64,8 @@ export default async function Home() {
       </div>
       {user?.role !== "ADMIN" && (
         <div>
-          <Diseases />
           <LocationFinder />
+          <Diseases />
           <Articles />
         </div>
       )}
