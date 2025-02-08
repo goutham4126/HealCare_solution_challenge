@@ -17,15 +17,15 @@ async function DoctorList() {
 
   return (
     <div className="space-y-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         {doctors?.map((doctor) => (
           <Card key={doctor.id}>
             <CardHeader>
-              <CardTitle>{doctor.name}</CardTitle>
+              <CardTitle className="text-2xl font-semibold">{doctor.name}</CardTitle>
               <CardDescription>{doctor.knownTreatment}</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-muted-foreground">{doctor.doctorDescription}</p>
+              <p className="text-sm text-blue-900">{doctor.doctorDescription}</p>
             </CardContent>
             <CardFooter className="flex justify-between">
               <Button asChild variant="outline" className="rounded">

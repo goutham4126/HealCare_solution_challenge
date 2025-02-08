@@ -40,6 +40,7 @@ model Consultation {
   gender         String
   age            Int
   patientPhoneNo String
+  prescription   String?
   date           DateTime
   stage          String
   status         Status
