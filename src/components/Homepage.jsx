@@ -71,7 +71,12 @@ export default function Homepage() {
           title: "Nearest Hospital Finder",
           description: "Locate the best healthcare facilities near you with ease.",
           icon: <FaHospital className="text-4xl text-teal-600" />
-        }
+        },
+        {
+          title: "Workout",
+          description: "AI based workout manager for users.",
+          icon: <FaFilePrescription className="text-4xl text-teal-600" />
+        },
       ].map((feature, index) => (
         <div key={index} className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 flex flex-col items-center">
           {feature.icon}
