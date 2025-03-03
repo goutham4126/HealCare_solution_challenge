@@ -42,11 +42,6 @@ function PatientSidebar() {
       icon: <MdCoffeeMaker className="h-6 w-6" />
     },
     {
-      path: 'https://healcare-workout.vercel.app/',
-      name: 'Workout',
-      icon: <CgGym className="h-6 w-6" />
-    },
-    {
       path: '/careers',
       name: 'Career',
       icon: <FaSuitcaseMedical  className="h-6 w-6" />

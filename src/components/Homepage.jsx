@@ -7,13 +7,13 @@ export default function Homepage() {
       {/* Header */}
       <header className="container mx-auto px-3 py-3 flex justify-between items-center">
         <div className="text-3xl font-bold text-teal-700 tracking-wide">HealCare</div>
-        <nav>
+        {/* <nav>
           <ul className="flex space-x-6 text-lg font-medium">
               <li className="text-teal-900 hover:text-teal-600 transition-colors">
                 Donate Button
               </li>
           </ul>
-        </nav>
+        </nav> */}
       </header>
 
       {/* Hero Section */}
